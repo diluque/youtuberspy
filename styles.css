@@ -52,11 +52,12 @@ ul {
     padding: 10px;
 }
 .nav-main ul li a:hover {
-    padding: 10px;
+    padding: 5px;
 }
 .nav-main ul li a:hover {
    border-top:     5px solid #ad0505;
    border-bottom:  5px solid #150242;
+   transition: 0.5s;
 }
 .nav-main ul.nav-menu {
     flex: 1;
