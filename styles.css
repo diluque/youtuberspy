@@ -192,6 +192,7 @@ hr {
 /*social*/
 .social {
     margin: 50px;
+    padding-top: 50px;
 }
 
 .social p{
@@ -318,6 +319,11 @@ hr {
        opacity: .8;
        border-radius: 10px;
         
+    }
+
+    .social p{
+        
+        padding-top: 120px;
     }
     
     .cards-banner-one p {
