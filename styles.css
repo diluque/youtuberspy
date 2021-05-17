@@ -163,19 +163,26 @@ hr {
 .cards-banner-one{
     width: 100%;
     height: 350px;
-    background: url('./img/YouTubeBlack.jpg') no-repeat center center/cover;
+    background: url('./img/negro.jpg') no-repeat center center/cover;
     margin-bottom: 40px;
 }
 
 .ser {
     color: #f2f2f2;
+    
 }
 .cards-banner-one .content {
     font-size: larger;
     font-weight: bold;
-    width: 40%;
+    width: 20%;
     padding: 90px 0 0 30px;
-    color: #0e0d0d;
+    color: #fdf903;
+    background: #2f3649;
+    opacity: .5;
+}
+
+.cards-banner-one .content:hover {
+    opacity: .9;
 }
 
 .cards-banner-one p {
@@ -302,8 +309,19 @@ hr {
     .cards-banner-one{
         width: 100%;
         height: 250px;
-        background: url('./img/YouTubeBlack.jpg') no-repeat center center/cover;
+        background: url('./img/negro.jpg') no-repeat center center/cover;
         margin-bottom: 40px;
+    }
+    .ser {
+       padding-top: -140px;
+       background: #0e0d0d;
+       opacity: .8;
+       border-radius: 10px;
+        
+    }
+    
+    .cards-banner-one p {
+        margin: 5px 0 20px 0;
     }
     .footer-links .footer-container{
         grid-template-columns: repeat(2, 1fr);
