@@ -1,190 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+    <!--fechas de cambios: 17/05/2021 -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YOUTUBERS PY</title>
     <link rel="icon" href="img/bandera py.ico">
+    <title>Youtubers Py</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <a href="#" class="logo">Logo</a>
+
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div class="container">
+        <nav class="nav-main">
+            <img src="img/bandera py.ico" alt="Youtubers Py" class="nav-brand">
             <ul class="nav-menu">
-                <!--li.nav-menu-item*4>a.nav-menu-link-->
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link">Blog</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link">Videos</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link">Sobre Nosotros</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link">Contactos</a></li>
-            
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Quienes somos</a></li>
+                <li><a href="#">Ser un Youtuber</a></li>
+                <li><a href="#">Los Youtubers</a></li>
+                    
+                
             </ul>
+            <ul class="nav-menu-right">
+                <li><a href="#"><i class="fas fa-search"></i></a></li></ul>
+
         </nav>
-    </header>
-    <!--<h1 class="bienvenida">=Y=O=U=T=U=B=E=R=S= =P=Y=</h1> -->
-    <div class="grid">
-        
-<!-------------------------------------------------------------------------------------------->
-<!--01->
-<!-----------------------------------------CHAVONCITO----------------------------------------->         
-        <div class="grid-item">
-            <div class="card">
-                <img class="card-img" src="./img/canales/chavoncito.jpg" alt="Chavoncito" />
-            <div class="card-content">
-                <h1 class="card-header">Chavoncito_py</h1>
-                <p class="card-text">"Un canal de gameplay, juegos completos, 
-                    mejores jugadas y bloopers, sin trampas como la vieja escuela". <strong>Lives y lanzamientos.</strong></p>
-                    <button class="card-btn" type="button" onclick="window.open
-                    ('https://youtube.com/channel/UCmnj1uZArVhi54dVbs5rGVg')">
-                        Ir al Canal <span>&rarr;</span></button>
-            </div>
-    </div>
-  </div>
-<!----------------------------------------------------------------------------------------------->
-<!--02->
-<!-----------------------------------------ciudadxciudad----------------------------------------->         
-<div class="grid-item">
-    <div class="card">
-        <img class="card-img" src="./img/canales/ciudadxciudad.jpg" alt="Ciudad x Ciudad" />
-    <div class="card-content">
-        <h1 class="card-header">Ciudad x Ciudad</h1>
-        <p class="card-text">El mejor canal de noticias ciudadanas. <strong>La voz de la gente.</strong></p>
-            <button class="card-btn" type="button" onclick="window.open
-            ('https://www.youtube.com/channel/UCl3ZDt0zTRyJWHjq3KKACsA')">Ir al Canal <span>&rarr;</span></button>
-    </div>
-</div>
-</div>
+        <hr>
+      <!--primera foto-->
+      <header class="showcase">
+          <h2>Bienvenidos</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias obcaecati doloribus sequi perferendis aperiam libero excepturi assumenda atque soluta mollitia, eius ea. Vel ducimus officiis dolor cum dolorum necessitatibus quo!</p>
+          <a href="#" class="btn">Saber Más <i class="fas fa-angle-double-right"></i></a>
 
-<!-------------------------------------------------------------------------------------------->
-<!--03->
-<!-----------------------------------------energes-------------------------------------------->         
-<div class="grid-item">
-    <div class="card">
-        <img class="card-img" src="./img/canales/energes.jpg" alt="Energes" />
-    <div class="card-content">
-        <h1 class="card-header">Energes</h1>
-        <p class="card-text">Acompáñame en esta aventura de dar la vuelta al Paraguay en moto, 
-            conociendo las bellezas naturales, históricas y culturales de nuestro <strong>hermoso país.</strong></p>
-            <button class="card-btn" type="button" onclick="window.open
-            ('https://www.youtube.com/channel/UCkvqkK0vnVmtde699lyBx3Q')">Ir al Canal <span>&rarr;</span></button>
+      </header>
 
-            
-    </div>
-</div>
-</div>
+      <!--Canales-->
+      <div class="news-cards">         
 
-<!-------------------------------------------------------------------------------------------->
-<!--04->
-<!----------------------------------JAVIER JAROLIN motovlog----------------------------------->         
-<div class="grid-item">
-    <div class="card">
-        <img class="card-img" src="./img/canales/javier.jpg" alt="JAVIER JAROLIN motovlog" />
-    <div class="card-content">
-        <h1 class="card-header">JAVIER JAROLIN motovlog</h1>
-        <p class="card-text">Conociendo lo mejor de la ciudad y las partes de las motos. <strong>Mecánica y Aventuras.</strong>
-            </p>
-            <button class="card-btn" type="button" onclick="window.open
-        ('https://youtube.com/channel/UCBcB15349SxjCDqKpM4-E-w')">Ir al Canal <span>&rarr;</span></button>
-    </div>
-</div>
-</div>
+         <div>
+            <img src="img/canales/1.jpg" alt="News 1" onclick="window.open
+            ('https://youtube.com/channel/UCmnj1uZArVhi54dVbs5rGVg')">
+            <h3 onclick="window.open
+            ('https://youtube.com/channel/UCmnj1uZArVhi54dVbs5rGVg')">Chavoncito_py</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam deleniti aliquam error alias nam! Non optio asperiores ad maxime!</p>
+            <a href="#">Saber más..<i class="fas fa-angle-double-right"></i></a>
+            <a href="#" onclick="window.open
+            ('https://youtube.com/channel/UCmnj1uZArVhi54dVbs5rGVg')">Abrir en Youtube<i class="fas fa-angle-double-right"></i></a>
+           </div>
 
-<!-------------------------------------------------------------------------------------------->
-<!--05->
-<!-----------------------------------------Marino el del Saxo--------------------------------->         
-<div class="grid-item">
-    <div class="card">
-        <img class="card-img" src="./img/canales/marino.jpg" alt="Marino el del Saxo" />
-    <div class="card-content">
-        <h1 class="card-header">Marino el del Saxo</h1>
-        <p class="card-text">Aventurarse y disfrutar del día a día con buena música y una moto, conociendo la cuidad e Itaugua desde otro ángulo. <strong>Diversión y novedades.</strong></p>
-            <button class="card-btn" type="button" onclick="window.open
-            ('https://youtube.com/channel/UCZlMl09i_YDEordbipqZXag')">Ir al Canal <span>&rarr;</span></button>
+           <div>
+            <img src="img/canales/2.jpg" alt="News 1" onclick="window.open
+            ('https://www.youtube.com/channel/UCl3ZDt0zTRyJWHjq3KKACsA')">
+            <h3 onclick="window.open
+            ('https://www.youtube.com/channel/UCl3ZDt0zTRyJWHjq3KKACsA')">Ciudad x Ciudad</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam deleniti aliquam error alias nam! Non optio asperiores ad maxime!</p>
+            <a href="">Saber más..<i class="fas fa-angle-double-right"></i></a>
+            <a href="" onclick="window.open
+            ('https://www.youtube.com/channel/UCl3ZDt0zTRyJWHjq3KKACsA')">Abrir en Youtube<i class="fas fa-angle-double-right"></i></a>
+           </div>
+
+           <div>
+            <img src="img/canales/3.jpg" alt="News 1" onclick="window.open
+            ('https://www.youtube.com/channel/UCkvqkK0vnVmtde699lyBx3Q')">
+            <h3 onclick="window.open
+            ('https://www.youtube.com/channel/UCkvqkK0vnVmtde699lyBx3Q')">Energes</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam deleniti aliquam error alias nam! Non optio asperiores ad maxime!</p>
+            <a href="">Saber más..<i class="fas fa-angle-double-right"></i></a>
+            <a href="" onclick="window.open
+            ('https://www.youtube.com/channel/UCkvqkK0vnVmtde699lyBx3Q')">Abrir en Youtube<i class="fas fa-angle-double-right"></i></a>
+           </div>
+
+           <div>
+            <img src="img/canales/4.jpg" alt="News 1" onclick="window.open
+            ('https://youtube.com/channel/UCBcB15349SxjCDqKpM4-E-w')">
+            <h3 onclick="window.open
+            ('https://youtube.com/channel/UCBcB15349SxjCDqKpM4-E-w')">Javier Jarolin MotoVlog</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam deleniti aliquam error alias nam! Non optio asperiores ad maxime!</p>
+            <a href="">Saber más..<i class="fas fa-angle-double-right"></i></a>
+            <a href="" onclick="window.open
+            ('https://youtube.com/channel/UCBcB15349SxjCDqKpM4-E-w')">Abrir en Youtube<i class="fas fa-angle-double-right"></i></a>
+           </div>
+
+           <div>
+            <img src="img/canales/5.jpg" alt="News 1" onclick="window.open
+            ('https://youtube.com/channel/UCZlMl09i_YDEordbipqZXag')">
+            <h3 onclick="window.open
+            ('https://youtube.com/channel/UCZlMl09i_YDEordbipqZXag')">Marino el del Saxo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam deleniti aliquam error alias nam! Non optio asperiores ad maxime!</p>
+            <a href="">Saber más..<i class="fas fa-angle-double-right"></i></a>
+            <a href="" onclick="window.open
+            ('https://youtube.com/channel/UCZlMl09i_YDEordbipqZXag')">Abrir en Youtube<i class="fas fa-angle-double-right"></i></a>
+           </div>
+
+           <div>
+            <img src="img/canales/6.jpg" alt="News 1" onclick="window.open
+            ('https://www.youtube.com/channel/UCGy9QQFtzACYBlSDTYY6_qw')">
+            <h3 onclick="window.open
+            ('https://www.youtube.com/channel/UCGy9QQFtzACYBlSDTYY6_qw')">Mr. Peng</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam deleniti aliquam error alias nam! Non optio asperiores ad maxime!</p>
+            <a href="">Saber más..<i class="fas fa-angle-double-right"></i></a>
+            <a href="" onclick="window.open
+            ('https://www.youtube.com/channel/UCGy9QQFtzACYBlSDTYY6_qw')">Abrir en Youtube<i class="fas fa-angle-double-right"></i></a>
+           </div>
+
+           <div>
+            <img src="img/canales/7.jpg" alt="News 1" onclick="window.open
+            ('https://youtube.com/c/OsorioMotoVlog')">
+            <h3 onclick="window.open
+            ('https://youtube.com/c/OsorioMotoVlog')">Osorio MotoVlog</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam deleniti aliquam error alias nam! Non optio asperiores ad maxime!</p>
+            <a href="">Saber más..<i class="fas fa-angle-double-right"></i></a>
+            <a href="" onclick="window.open
+            ('https://youtube.com/c/OsorioMotoVlog')">Abrir en Youtube<i class="fas fa-angle-double-right"></i></a>
+           </div>
+
+           <div>
+            <img src="img/canales/8.jpg" alt="News 1" onclick="window.open
+            ('https://www.youtube.com/channel/UCX4KcpldKC7IGQYtrSszccw')">
+            <h3 onclick="window.open
+            ('https://www.youtube.com/channel/UCX4KcpldKC7IGQYtrSszccw')">Soy de Minga</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam deleniti aliquam error alias nam! Non optio asperiores ad maxime!</p>
+            <a href="">Saber más..<i class="fas fa-angle-double-right"></i></a>
+            <a href="" onclick="window.open
+            ('https://www.youtube.com/channel/UCX4KcpldKC7IGQYtrSszccw')">Abrir en Youtube<i class="fas fa-angle-double-right"></i></a>
+           </div>
+
+           <div>
+            <img src="img/canales/9.jpg" alt="News 1" onclick="window.open
+            ('https://youtube.com/channel/UCTToWsOc1JcCM1ebQnsArpg')">
+            <h3 onclick="window.open
+            ('https://youtube.com/channel/UCTToWsOc1JcCM1ebQnsArpg')">Trucker Vlog Py</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam deleniti aliquam error alias nam! Non optio asperiores ad maxime!</p>
+            <a href="">Saber más..<i class="fas fa-angle-double-right"></i></a>
+            <a href="" onclick="window.open
+            ('https://youtube.com/channel/UCTToWsOc1JcCM1ebQnsArpg')">Abrir en Youtube<i class="fas fa-angle-double-right"></i></a>
+           </div>
+
+           <div>
+            <img src="img/canales/10.jpg" alt="News 1" onclick="window.open
+            ('https://youtube.com/c/UNTIPOCONHONDA')">
+            <h3 onclick="window.open
+            ('https://youtube.com/c/UNTIPOCONHONDA')">Un Tipo con Honda</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam deleniti aliquam error alias nam! Non optio asperiores ad maxime!</p>
+            <a href="">Saber más..<i class="fas fa-angle-double-right"></i></a>
+            <a href="" onclick="window.open
+            ('https://youtube.com/c/UNTIPOCONHONDA')">Abrir en Youtube<i class="fas fa-angle-double-right"></i></a>
+           </div>
+
+           <div>
+            <img src="img/canales/11.jpg" alt="News 1" onclick="window.open
+            ('https://www.youtube.com/channel/UCyJsnt_CDPgb51YziEdGzRg')">
+            <h3 onclick="window.open
+            ('https://www.youtube.com/channel/UCyJsnt_CDPgb51YziEdGzRg')">Rigoberto Py Aventurero</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam deleniti aliquam error alias nam! Non optio asperiores ad maxime!</p>
+            <a href="">Saber más..<i class="fas fa-angle-double-right"></i></a>
+            <a href="" onclick="window.open
+            ('https://www.youtube.com/channel/UCyJsnt_CDPgb51YziEdGzRg')">Abrir en Youtube<i class="fas fa-angle-double-right"></i></a>
+           </div>
+           
+           <div>
+            <img src="img/canales/12.jpg" alt="News 1" onclick="window.open
+            ('https://www.youtube.com/channel/UCyNnt827TJwIwBxktR_diyA')">
+            <h3 onclick="window.open
+            ('https://www.youtube.com/channel/UCyNnt827TJwIwBxktR_diyA')">Komandier Py</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam deleniti aliquam error alias nam! Non optio asperiores ad maxime!</p>
+            <a href="">Saber más..<i class="fas fa-angle-double-right"></i></a>
+            <a href="" onclick="window.open
+            ('https://www.youtube.com/channel/UCyNnt827TJwIwBxktR_diyA')">Abrir en Youtube<i class="fas fa-angle-double-right"></i></a>
+           </div>
+      </div>
+      <section class="cards-banner-one">
+         <div class="content">
+             <h2 class="ser">Como ser un Youtuber</h2>
+             <p>Todo lo que necesitas saber para tener tu propio canal y crear tu primer video!</p>
+             <a href="#" class="btn">Saber más <i class="fas fa-angle-double-right"></i></a>
+         </div>
+      </section>
+
+      <section class="social">
+          <p>Síguenos en las Redes Sociales</p>
+          <div class="links">
+              <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-telegram"></i>
+            </a>
+
+          </div>
+      </section>
     </div>
-</div>
-</div>
- 
-<!-------------------------------------------------------------------------------------------->
-<!--06->
-<!-----------------------------------------Mr. Peng--------------------------------------------->         
-<div class="grid-item">
-    <div class="card">
-        <img class="card-img" src="./img/canales/mrpeng.jpg" alt="Mr. Peng" />
-    <div class="card-content">
-        <h1 class="card-header">Mr. Peng</h1>
-        <p class="card-text">El mejor canal donde tendrás noticias de los famosos y donde la interacción 
-            con los seguidores es la prioridad del canal. <strong>Mr Peng te lo dice.</strong></p>
-            <button class="card-btn" type="button" onclick="window.open
-            ('https://www.youtube.com/channel/UCGy9QQFtzACYBlSDTYY6_qw')">Ir al Canal <span>&rarr;</span></button>
+    <div class="footer-links">
+        <div class="footer-container">
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Canales</h3>
+                    </a>
+                </li>
+                <li><a href="#" class="ch" onclick="window.open
+                    ('https://youtube.com/channel/UCmnj1uZArVhi54dVbs5rGVg')">Chavoncito_py</a></li>
+                <li><a href="#" class="cxc" onclick="window.open
+                    ('https://www.youtube.com/channel/UCl3ZDt0zTRyJWHjq3KKACsA')">Ciudad x Ciudad</a></li>
+                <li><a href="#" class="ene" onclick="window.open
+                    ('https://www.youtube.com/channel/UCkvqkK0vnVmtde699lyBx3Q')">Energes</a></li>
+                <li><a href="#" class="jj" onclick="window.open
+                    ('https://youtube.com/channel/UCBcB15349SxjCDqKpM4-E-w')">Javier Jarolin MotoVlog</a></li>
+                <li><a href="#" class="mmm" onclick="window.open
+                    ('https://youtube.com/channel/UCZlMl09i_YDEordbipqZXag')">Marino el del Saxo</a></li>
+             </ul>
+
+             <ul>
+                <li>
+                    <a href="#">
+                        <h3>Canales</h3>
+                    </a>
+                </li>
+                <li><a href="#" class="mp" onclick="window.open
+                    ('https://www.youtube.com/channel/UCGy9QQFtzACYBlSDTYY6_qw')">Mr. Peng</a></li>
+                <li><a href="#" class="om" onclick="window.open
+                    ('https://youtube.com/c/OsorioMotoVlog')">Osorio MotoVlog</a></li>
+                <li><a href="#" class="sm" onclick="window.open
+                    ('https://www.youtube.com/channel/UCX4KcpldKC7IGQYtrSszccw')">Soy de Minga</a></li>
+                <li><a href="#" class="tvp" onclick="window.open
+                    ('https://youtube.com/channel/UCTToWsOc1JcCM1ebQnsArpg')">Trucker Vlog Py</a></li>
+                <li><a href="#" class="th" onclick="window.open
+                    ('https://youtube.com/c/UNTIPOCONHONDA')">Un Tipo con Honda</a></li>
+             </ul>
+
+             <ul>
+                <li>
+                    <a href="#">
+                        <h3>Canales</h3>
+                    </a>
+                </li>
+                <li><a href="#" class="rp" onclick="window.open
+                    ('https://www.youtube.com/channel/UCyJsnt_CDPgb51YziEdGzRg')">Rigoberto Py Aventurero</a></li>
+                <li><a href="#" class="kom" onclick="window.open
+                    ('https://www.youtube.com/channel/UCyNnt827TJwIwBxktR_diyA')">Komandier Py</a></li>
+                <li><a href="#" class="f1">Futuro Canal Py</a></li>
+                <li><a href="#" class="">Futuro Canal Py</a></li>
+                <li><a href="#" class="">Futuro Canal Py</a></li>
+             </ul>
+
+             <ul>
+                <li>
+                    <a href="#">
+                        <h3>Canales</h3>
+                    </a>
+                </li>
+                <li><a href="#" class="">Futuro Canal Py</a></li>
+                <li><a href="#" class="">Futuro Canal Py</a></li>
+                <li><a href="#" class="">Futuro Canal Py</a></li>
+                <li><a href="#" class="">Futuro Canal Py</a></li>
+                <li><a href="#" class="">Futuro Canal Py</a></li>
+             </ul>
+        </div>
     </div>
-</div>
-</div>
- 
-<!-------------------------------------------------------------------------------------------->
-<!--07->
-<!-----------------------------------------Osorio MotoVlog------------------------------------->         
-<div class="grid-item">
-    <div class="card">
-        <img class="card-img" src="./img/canales/osorio.jpg" alt="Osorio MotoVlog" />
-    <div class="card-content">
-        <h1 class="card-header">Osorio MotoVlog</h1>
-        <p class="card-text">Conozca nuestra querida Ciudad del Este desde otro punto de vista. 
-             <strong>Observaciones diarias en dos ruedas.</strong></p>
-            <button class="card-btn" type="button" onclick="window.open
-            ('https://youtube.com/c/OsorioMotoVlog')">Ir al Canal <span>&rarr;</span></button>
-    </div>
-</div>
-</div>
- 
-<!-------------------------------------------------------------------------------------------->
-<!--08->
-<!-----------------------------------------Soy de Minga--------------------------------------->         
-<div class="grid-item">
-    <div class="card">
-        <img class="card-img" src="./img/canales/soydeminga.jpg" alt="Soy de Minga" />
-    <div class="card-content">
-        <h1 class="card-header">Soy de Minga</h1>
-        <p class="card-text">Desde Minga Guazú Paraguay con los mejores paisajes y aventuras que te 
-            invitarán a ser parte de nuestras maravillas. <strong>Imágenes únicas e inéditas.</strong></p>
-            <button class="card-btn" type="button" onclick="window.open
-            ('https://www.youtube.com/channel/UCX4KcpldKC7IGQYtrSszccw')">Ir al Canal <span>&rarr;</span></button>
-    </div>
-</div>
-</div>
- 
-<!-------------------------------------------------------------------------------------------->
-<!--09->
-<!-----------------------------------------Trucker Vlog Py------------------------------------>         
-<div class="grid-item">
-    <div class="card">
-        <img class="card-img" src="./img/canales/truckervlog.jpg" alt="Trucker Vlog Py" />
-    <div class="card-content">
-        <h1 class="card-header">Trucker Vlog Py</h1>
-        <p class="card-text">Porque no hay fronteras, desde un vecino pais, 
-            las experiencias de un compatriota detrás de un volante. <strong>Manejando por un sueño.</strong></p>
-            <button class="card-btn" type="button" onclick="window.open
-            ('https://youtube.com/channel/UCTToWsOc1JcCM1ebQnsArpg')">Ir al Canal <span>&rarr;</span></button>
-    </div>
-</div>
-</div>
- 
-<!-------------------------------------------------------------------------------------------->
-<!--10->
-<!----------------------------------------- UN TIPO CON HONDA------------------------------------->         
-<div class="grid-item">
-    <div class="card">
-        <img class="card-img" src="./img/canales/untipoconhonda.jpg" alt="UN TIPO CON HONDA" />
-    <div class="card-content">
-        <h1 class="card-header">UN TIPO CON HONDA</h1>
-        <p class="card-text">Aventura extrema y las mejores tomas ante situaciones interesantes que te llevarán a rincones inexplorados. <strong>Y si es con Honda es mucho mejor.</strong></p>
-            <button class="card-btn" type="button" onclick="window.open
-            ('https://youtube.com/c/UNTIPOCONHONDA')">Ir al Canal <span>&rarr;</span></button>
-    </div>
-</div>
-</div>
-<!--------------------------------------------------------------------------------------------> 
-</div>
+
+    <footer class="footer">
+        <h3>Página creada por DiLuqueWeb</h3>
+    </footer>
+    <script src="main.js"></script>
 </body>
 </html>
