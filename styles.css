@@ -243,7 +243,8 @@ hr {
 .kr:hover,
 .rm:hover,
 .da:hover,
-.ri:hover
+.ri:hover,
+.sa:hover
 {
     text-transform: uppercase;
     background: #ad0505;
