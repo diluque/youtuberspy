@@ -280,6 +280,10 @@ hr {
     line-height: 3.7;
 }
 
+.visitas {
+    color: #25fa08;
+    font-size: 25px;
+}
 .footer{
     background: #090909;
     color: #616161;
