@@ -64,7 +64,15 @@ font-family: 'Oswald', sans-serif;
         border-radius: 25px;
     }
 
-
+    .videos{
+        display: grid;
+        grid-template:  1fr 1fr;
+        gap: 25px;
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 .footer{
     background: #090909;
     color: #616161;
