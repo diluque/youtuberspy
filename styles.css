@@ -83,7 +83,7 @@ hr {
 .showcase{
     width: 100%;
     height: 550px;
-    background: url(./img/primera.jpg) no-repeat center center/cover;
+    background: url(./img/primera.jpg) no-repeat center center/cover;   
     padding: 50px;
     margin-bottom: 20px;
     display: flex;
@@ -93,8 +93,9 @@ hr {
 }
 
 .showcase h2{
-    font-size: 80px;
+    font-size: 70px;
     color: #ad0505;
+    
 }
 .showcase p {
     text-align: center;
