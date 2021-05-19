@@ -92,6 +92,17 @@ hr {
     justify-content: flex-end;
 }
 
+.showcase h2{
+    font-size: 80px;
+    color: #ad0505;
+}
+.showcase p {
+    text-align: center;
+    font-size: 25px;
+    background: #2f3649;
+    opacity: .7;
+}
+
 .btn {
     cursor: pointer;
     display: inline-block;
