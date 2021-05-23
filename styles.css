@@ -192,11 +192,11 @@ hr {
     padding: 90px 0 0 30px;
     color: #fdf903;
     background: #000207;
-    opacity: .8;
+    opacity: .9;
 }
 
 .cards-banner-one .content:hover {
-    opacity: .9;
+    opacity: .8;
 }
 
 .cards-banner-one p {
@@ -327,7 +327,8 @@ hr {
     }
 
     .cards-banner-one .content{
-        width: 80%;
+        width: 100%;
+        height: 100%;
     }
 
     .cards-banner-one{
@@ -338,7 +339,7 @@ hr {
     }
     .ser {
        padding-top: -140px;
-       background: #0e0d0d;
+       
        opacity: .8;
        border-radius: 10px;
         
