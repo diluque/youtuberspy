@@ -181,17 +181,18 @@ hr {
 }
 
 .ser {
-    color: #f2f2f2;
+    color: #ff0000;
     
 }
 .cards-banner-one .content {
+    display: flexbox;
     font-size: larger;
     font-weight: bold;
     width: 20%;
     padding: 90px 0 0 30px;
     color: #fdf903;
-    background: #2f3649;
-    opacity: .5;
+    background: #000207;
+    opacity: .8;
 }
 
 .cards-banner-one .content:hover {
