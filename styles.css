@@ -84,7 +84,7 @@ hr {
 .showcase{
     width: 100%;
     height: 550px;
-    background: url(./img/primera.jpg) no-repeat center center/cover;   
+    background: url(./img/primera.png) no-repeat center center/cover;   
     padding: 50px;
     margin-bottom: 20px;
     display: flex;
@@ -95,14 +95,14 @@ hr {
 
 .showcase h2{
     font-size: 70px;
-    color: #ad0505;
+    color: #f80606;
     
 }
 .showcase p {
     text-align: center;
     font-size: 25px;
-    background: #2f3649;
-    opacity: .7;
+    color: #ffffff;
+    
 }
 
 .btn {
@@ -148,7 +148,8 @@ hr {
 /*newscards*/
 
 .lista{
-    
+    text-align: center;
+    font-size: 40px;
 }
 .news-cards{
     display: grid;
