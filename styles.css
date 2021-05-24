@@ -131,12 +131,20 @@ hr {
 
 
 /*quienes somos*/
-.quienes {
-
-    text align: center;
+.quienes{
+    text-align: center;
+    font-size: 50px;
 }
 
+.quienes:hover{
+    cursor: pointer;
+    text-shadow: rgb(245, 241, 2)f;
+}
 
+.pp{
+    text-align: center;
+    font-size: 20px;
+}
 /*newscards*/
 
 .news-cards{
