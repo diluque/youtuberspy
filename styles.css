@@ -389,3 +389,7 @@ hr {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+.final{
+    text-align: center;
+}
