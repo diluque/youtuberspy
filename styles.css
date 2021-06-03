@@ -393,3 +393,12 @@ hr {
 .final{
     text-align: center;
 }
+
+.final li a q{
+    color: #25fa08;
+}
+
+.final li a q:hover{
+  cursor: pointer;
+background: #090909;
+}
