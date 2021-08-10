@@ -317,6 +317,11 @@ hr {
     color: #25fa08;
     font-size: 25px;
 }
+
+/*Comentarios*/
+.section-6 {
+background-color: yellow;
+}
 .footer{
     background: #090909;
     color: #616161;
