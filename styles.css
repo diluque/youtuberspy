@@ -147,11 +147,12 @@ hr {
   font-size: 40px;
 }
 
-.categorias {
+.cat {
   font-size: 30px;
   text-align: center;
   color: #25fa08;
 }
+
 .news-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
