@@ -125,6 +125,11 @@ hr {
   margin-bottom: 10px;
 }
 
+/*clima*/
+.clima {
+  text-align: center;
+  width: 100%;
+}
 /*quienes somos*/
 .quienes {
   text-align: center;
