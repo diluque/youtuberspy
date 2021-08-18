@@ -70,7 +70,11 @@ body {
   opacity: 0.9;
   border-radius: 25px;
 }
-
+/*sorteo*/
+.sorteo {
+  width: 80%;
+}
+/*sorteo*/
 .grid-container iframe {
   display: grid;
   grid-template-areas: (2fr 2fr);
