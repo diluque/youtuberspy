@@ -50,6 +50,9 @@ body {
   border-radius: 25px;
 }
 
+.btne a {
+  color: rgb(81, 255, 0);
+}
 .inicio {
   cursor: pointer;
   display: flex;
@@ -70,9 +73,26 @@ body {
   opacity: 0.9;
   border-radius: 25px;
 }
+
+.inicio a{
+  color: rgb(81, 255, 0);
+}
 /*sorteo*/
 .sorteo {
   width: 100%;
+}
+
+.base{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: rgb(244, 248, 248);
+}
+
+.uno{
+  color: rgb(7, 245, 245);
+  text-align: center;
 }
 /*sorteo*/
 .grid-container iframe {
