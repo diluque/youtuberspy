@@ -74,7 +74,7 @@ body {
   border-radius: 25px;
 }
 
-.inicio a{
+.inicio a {
   color: rgb(81, 255, 0);
 }
 /*sorteo*/
@@ -82,7 +82,7 @@ body {
   width: 100%;
 }
 
-.base{
+.base {
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -90,11 +90,15 @@ body {
   color: rgb(244, 248, 248);
 }
 
-.uno{
+.uno {
   color: rgb(7, 245, 245);
   text-align: center;
 }
 /*sorteo*/
+.muestras {
+  text-align: center;
+}
+
 .grid-container iframe {
   display: grid;
   grid-template-areas: (2fr 2fr);
